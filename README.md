@@ -50,6 +50,15 @@ https://github.com/slw287r/igv.git
   </tr>
 </table>
 
+```
+mkdir -p ~/Sites/igv/resources/data && cd ~/Sites/igv/resources/data
+wget https://s3.dualstack.us-east-1.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg19/hg19.fasta
+wget https://s3.dualstack.us-east-1.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg19/hg19.fasta.fai
+wget https://s3.dualstack.us-east-1.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg19/cytoBand.txt
+wget https://s3.dualstack.us-east-1.amazonaws.com/igv.org.genomes/hg19/refGene.sorted.txt.gz
+wget https://s3.dualstack.us-east-1.amazonaws.com/igv.org.genomes/hg19/refGene.sorted.txt.gz.tbi
+```
+
 ### Build local server on macOS
 
 Refer to the following link to turn on apache server
